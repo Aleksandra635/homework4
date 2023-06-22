@@ -21,4 +21,4 @@ for (int i = 1; i <= number2; i++)
 return sum;
 }
 int result = GetSum(number1, number2);
-Console.WriteLine(result);
+Console.WriteLine($"{number1}, {number2} -> {result}");
